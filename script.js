@@ -2,8 +2,14 @@ const app = new Vue(
     {
       el: '#vueContainer',
       data: {
-        text:"message",
-        stampa:"text"
+        text:"message",    
       }
    },
+
+   {
+       el: '#imgContainer',
+       data:{
+        img: "src"
+       }
+   }
 )   
